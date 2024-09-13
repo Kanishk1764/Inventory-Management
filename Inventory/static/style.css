@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1rem;
+    padding: 15px 20px;
+}
+
+.nav-link:hover {
+    color: #e3f2fd;
+}
+
+.content {
+    padding: 20px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Home Page Layout */
+.container {
+    margin-top: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.col-md-7 {
+    padding: 0 15px;
+}
+
+.col-md-5 {
+    padding: 0 15px;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+ul.list-group {
+    padding: 0;
+}
+
+ul.list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+ul.list-group-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul.list-group-item a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .col-md-7, .col-md-5 {
+        padding: 0;
+    }
+}
