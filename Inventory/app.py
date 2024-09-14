@@ -45,4 +45,4 @@ def active_dues():
     return render_template('active_dues.html', dues=dues)
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(host="localhost", port=8000,debug=False)
